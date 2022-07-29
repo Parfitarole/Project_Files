@@ -2,9 +2,9 @@
 alias cls="clear"
 alias src="cd ~/src"
 alias code="cd ~/src"
-alias ba="nano ~/.bash_aliases"
-alias aliases="nano -/.bash_aliases"
-alias updatealiases="source /.bash_aliases"
+alias ba="sudo nano ~/.bash_aliases"
+alias aliases="sudo nano ~/.bash_aliases"
+alias updatealiases="source ~/.bash_aliases"
 
 # Sail 
 alias nmu="docker stop nginx_proxy redis && sail up -d"
