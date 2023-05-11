@@ -44,4 +44,5 @@ alias webapp="cd ~/src/web-app"
 alias ba="nano ~/.bash_aliases"
 alias staging="ssh root@46.101.86.61"
 # ssh
-alias ipssh="ssh influencersporn@198.54.115.202 -p 21098"
+alias sship="ssh root@178.128.162.84"
+alias ipssh="sship"
